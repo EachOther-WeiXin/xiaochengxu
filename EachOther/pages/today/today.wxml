@@ -1,0 +1,40 @@
+<view>
+  <view wx:for="{{trains}}" wx:key="id">
+    <text>主题: {{item.theme}}</text>   
+    <text>时间: {{item.trainStartTimeStr}}-{{item.trainEndTimeStr}}</text>
+    <text>地点: {{item.site}}</text>
+    <text>讲师: {{item.lecturer}}</text>
+  </view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

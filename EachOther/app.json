@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/today/today",
+    "pages/discussion/discussion",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundTextStyle": "#F8F8F8",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationBarTitleText": "EachOther",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/today/today",
+        "iconPath": "images/icon/xinghao.jpg",
+        "selectedIconPath": "images/icon/xinghao.jpg",
+        "text": "当天培训"
+      },
+      {
+        "pagePath": "pages/discussion/discussion",
+        "iconPath": "images/icon/taolun.png",
+        "selectedIconPath": "images/icon/taolun.png",
+        "text": "讨论区"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "images/icon/gerenzhongxin.png",
+        "selectedIconPath": "images/icon/gerenzhongxin.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}
